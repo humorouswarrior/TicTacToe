@@ -1,21 +1,21 @@
-import React from "react";
-
-export default () => (
-  <>
-    <h1>Welcome to React Vite Micro App!</h1>
-    <p>Hard to get more minimal than this React app.</p>
-  </>
-);
+import React from 'react';
+import Board from './Components/Board';
 
 //may also be written as
-
-// const app = () => {
-//   return (
-//     <>
+// export default () => (
+//   <>
 //     <h1>Welcome to React Vite Micro App!</h1>
 //     <p>Hard to get more minimal than this React app.</p>
 //   </>
-//   );
-// };
+// );
 
-// export default app;
+const app = () => {
+  return (
+    <div>
+      <h1>TIC-TAC-TOE</h1>
+      <Board />
+    </div>
+  );
+};
+
+export default app;
