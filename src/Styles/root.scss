@@ -1,4 +1,9 @@
-body {                              //sass. it is basically css only with a few syntactical differences.
+//sass. it is basically css only with a few syntactical differences. extension is scss
+
+//all changes are done here in root file and then these classes are added anywhere in the prog after this file is imported to app. 
+//we may also have separate sass files but then we have to import them all. 
+
+body {                              
   padding: 0;
   margin: 0;
 }
