@@ -1,6 +1,6 @@
 import React from 'react';
 import Board from './Components/Board';
-
+import "./Styles/root.scss";
 //may also be written as
 // export default () => (
 //   <>
@@ -9,13 +9,13 @@ import Board from './Components/Board';
 //   </>
 // );
 
-const app = () => {
+const App = () => {
   return (
-    <div>
+    <div className='app'>
       <h1>TIC-TAC-TOE</h1>
       <Board />
     </div>
   );
 };
 
-export default app;
+export default App;
